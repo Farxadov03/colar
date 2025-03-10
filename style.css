@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+}
+
+.ota {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    top: 100px;
+    border-radius: 50%;
+    animation: ota 7s infinite linear;
+}
+.ota2{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+     animation: yer 5s infinite linear;
+    
+    border-radius: 50%;
+}
+
+.quyosh {
+    width: 150px;
+    height:150px;
+    background-color: orange;
+    border-radius: 50%;
+    position: absolute;
+    top: 175px;
+    left: 175px;
+    box-shadow: 0px 0px 40px white;
+
+}
+
+.yer {
+    width: 70px;
+    height: 70px;
+    background-color: greenyellow;
+    position: absolute;
+    border-radius: 50%;
+    top: 37px;
+    left: 37px;
+   
+}
+.oy{
+    width: 40px;
+    height: 40px;
+    background-color: gainsboro;
+    border-radius: 50%;
+    box-shadow:0px 0px 20px white;
+}
+@keyframes ota {
+    0%{
+       transform: rotate(0deg);
+    }
+    100%{
+       transform: rotate(360deg);
+    }
+}
+@keyframes yer {
+    0%{
+       transform: rotate(0deg);
+    }
+    100%{
+       transform: rotate(360deg);
+    }
+}
